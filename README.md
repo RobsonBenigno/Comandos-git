@@ -15,6 +15,7 @@ Cria ou prepara um repositório Git.
 Comando	Função	Exemplo
 git init	Inicia um novo repositório Git na pasta atual	git init
 git clone [URL]	Clona (baixa) um repositório remoto do GitHub para o seu computador	git clone https://github.com/robson/meu-projeto.git
+
 🧱 3. Controle de arquivos
 
 Adiciona, verifica e remove arquivos do controle do Git.
@@ -24,6 +25,7 @@ git status	Mostra o estado atual do repositório (arquivos modificados, não ras
 git add [arquivo]	Adiciona um arquivo à área de stage (prepara para commit)	git add index.html
 git add .	Adiciona todos os arquivos modificados	git add .
 git rm [arquivo]	Remove um arquivo e registra a remoção no Git	git rm style.css
+
 💾 4. Commits (salvar alterações)
 
 Usado para registrar uma nova versão do seu projeto.
@@ -63,6 +65,7 @@ Comando	Função	Exemplo
 git restore [arquivo]	Desfaz modificações feitas em um arquivo antes do commit	git restore index.html
 git reset [arquivo]	Remove o arquivo da área de stage (sem apagar alterações)	git reset index.html
 git reset --hard [commit]	Volta o projeto inteiro para um commit anterior (⚠️ perigoso)	git reset --hard 3e1f7ab
+
 🔍 8. Visualização e comparação
 
 Ajuda a inspecionar o que foi modificado.
@@ -93,3 +96,4 @@ git help commit
 
 
 ➡️ Isso abre a documentação oficial do comando.
+
